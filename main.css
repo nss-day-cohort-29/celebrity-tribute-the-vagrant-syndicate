@@ -70,3 +70,14 @@ footer {
     width: 100%;
 }
 
+#cookBook{
+    display: flex
+}
+
+#theDoggFather{
+    display: flex;
+}
+
+#reincarnated {
+    display: flex;
+}
