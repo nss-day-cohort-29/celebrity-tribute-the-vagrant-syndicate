@@ -1,0 +1,23 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #428bca;
+    text-decoration: none;
+}
