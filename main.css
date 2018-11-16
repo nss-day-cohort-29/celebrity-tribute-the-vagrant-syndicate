@@ -55,3 +55,8 @@ footer {
     width: 100%;
 }
 
+.pageTitle {
+    text-align: center;
+    background-color: rgb(235, 114, 114);
+}
+
