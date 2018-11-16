@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -10,7 +10,7 @@ a {
 }
 
 nav {
-    font-size: .75em;
+    font-size: .90em;
     margin: 0 auto;
     margin-bottom: 40px;
     width: 80%;
@@ -33,18 +33,23 @@ nav a {
     text-decoration: none;
 }
 
-h1, article {
+h1, header, article {
     width: 80%;
     margin: 0 auto;
 }
 
 h1 {
+    padding-bottom: 20px;
     text-align: center;
 }
 
 .news {
     border-bottom: 1px solid #666666;
     padding-bottom: 20px;
+}
+
+.news:last-of-type {
+    border: none;
 }
 
 .news img {
@@ -56,17 +61,39 @@ h1 {
     padding-top: 20px; 
 }
 .news p {
-    font-size: .75em;
+    font-size: .90em;
     line-height: 1.5em;
 }
 
-footer {
-    color: #000000;
-    font-size: .75em;
-    letter-spacing: 1px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    width: 100%;
+.pageTitle {     
+    text-align: center;     
+    background-color: rgb(235, 114, 114); 
+} 
+    
+.pageTitle h1 {     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
+footer {
+    border-top: 1px solid #000000;
+    color: #000000;
+    font-size: .90em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px 0;
+    width: 60%;
+}
+
+#cookBook{
+    display: flex
+}
+
+#theDoggFather{
+    display: flex;
+}
+
+#reincarnated {
+    display: flex;
+}
