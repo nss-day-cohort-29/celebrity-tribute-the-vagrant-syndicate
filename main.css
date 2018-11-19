@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin: 0;
 }
@@ -9,11 +9,20 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 nav {
     font-size: .90em;
     margin: 0 auto;
     margin-bottom: 40px;
-    width: 80%;
+    width: 100%;
+    background-color: #E8E8E8;
+    border-bottom: 1px solid #b9b7b7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 20px #b9b7b7;
 }
 
 nav ul {
@@ -21,7 +30,9 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 15px 0px;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 nav li {
@@ -29,7 +40,33 @@ nav li {
 }
 
 nav a {
-    font-weight: bold;
+    color: #666666;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #b9b7b7;
+    font-size: .90em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    word-spacing: 10px;
+    line-height: 1.25em;
+}
+
+footer a:hover {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -43,8 +80,19 @@ h1 {
     text-align: center;
 }
 
+.news_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 0px 20px;
+}
+
+#news {
+    background-color: #F7F7F7;
+}
+
 .news {
-    border-bottom: 1px solid #666666;
     padding-bottom: 20px;
 }
 
@@ -53,21 +101,33 @@ h1 {
 }
 
 .news img {
+    width: 100%;
     max-width: 400px;
     height: auto;
 }
 
 .news h3 {
+    font-size: 1em;
     padding-top: 20px; 
 }
 .news p {
-    font-size: .90em;
+    font-size: .85em;
     line-height: 1.5em;
 }
 
-.pageTitle {     
+
+#main {
+    background-color: rgb(157, 187, 157);
+}
+.pageTitle {
+    border-radius: 100px;
     text-align: center;     
-    background-color: rgb(235, 114, 114); 
+    background-color: rgb(235, 114, 114);
+    border: solid 10px rgb(12, 110, 8);
+    background-image: url("http://www.digitalmusicnews.com/wp-content/uploads/2016/10/Pot-of-Gold.jpg");
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    }   
 } 
     
 
@@ -91,30 +151,115 @@ h1 {
         }
         /*Personal*/
 
-.pageTitle h1 {     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   
+
+.pageTitle img {
+    border-radius: 500px;
 }
 
-footer {
-    border-top: 1px solid #000000;
-    color: #000000;
-    font-size: .90em;
-    letter-spacing: 1px;
-    text-align: center;
+.pageTitle h1 {     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    text-shadow: -5px 0 rgb(12, 110, 8), 0 -2px rgb(12, 110, 8), -2px 0 black, 0 -1px black;
+}
+
+.pageTitle h3 {
+    background-color: bisque;
     margin: 0 auto;
-    margin-top: 60px;
-    padding: 20px 0;
-    width: 60%;
+    width: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    border: solid 5px rgb(12, 110, 8);
+}
+
+.summary_aliases {
+    background-image: radial-gradient(beige, rgb(12, 110, 8));
+    border: solid 1px black;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    width: 50%;
+    border-radius: 50px;
+    background-blend-mode: 
+}
+
+.summary_collaborations {
+    background-image: radial-gradient(beige, rgb(12, 110, 8));
+    border: solid 1px black;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.summary_usa {
+    background-image: url(https://c1.staticflickr.com/1/628/20899532853_72e03af89c_b.jpg);
+    border: solid 1px black;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 2em;
+    -webkit-text-fill-color: white;
+    text-shadow: -5px 0 black, 0 -5px black, -5px 0 black, 0 -5px black;
 }
 
 #cookBook{
     display: flex
 }
 
-#theDoggFather{
-    display: flex;
+.pageTitle {
+    text-align: center;
+    background-color: rgb(235, 114, 114);
 }
 
-#reincarnated {
-    display: flex;
+
+#snoopdoggscareer {
+    background-color: cornflowerblue;
+    color: darkgreen; 
 }
+
+.careerTitle {
+    font-style: inherit;
+    color: goldenrod;
+}
+
+.careerSummary {
+    color: crimson;
+}
+
+.skillsTalents {
+    color: maroon;
+}
+
+.publishedWorks {
+    color: darkmagenta;
+}
+
+.longIsland {
+    color: darkviolet;
+}
+.collaborators {
+    color: olivedrab;
+}
+
+.awards {
+    color: tomato;
+}
+
+.snoopdoggscareersummary {
+    border: 5px solid yellow;
+    border-radius: 30px;
+    border-style: double;
+    font-style: oblique;
+    
+}
+
+
