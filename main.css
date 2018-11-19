@@ -90,10 +90,8 @@ footer {
     display: flex
 }
 
-#theDoggFather{
-    display: flex;
+.pageTitle {
+    text-align: center;
+    background-color: rgb(235, 114, 114);
 }
 
-#reincarnated {
-    display: flex;
-}
