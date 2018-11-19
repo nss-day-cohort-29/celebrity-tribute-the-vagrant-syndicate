@@ -70,6 +70,27 @@ h1 {
     background-color: rgb(235, 114, 114); 
 } 
     
+
+        /*Personal*/
+        .personalTitle h2 {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            background-color: orange;
+        }
+
+        .personalInfo h2 {
+            flex-direction: row;
+            text-align: left;
+            justify-content:
+            order: inherit
+            color: white;
+            float: left;
+            background-color: orange;
+        }
+        /*Personal*/
+
 .pageTitle h1 {     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
