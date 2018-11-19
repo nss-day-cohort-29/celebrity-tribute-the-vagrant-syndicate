@@ -90,10 +90,50 @@ footer {
     display: flex
 }
 
-#theDoggFather{
-    display: flex;
+.pageTitle {
+    text-align: center;
+    background-color: rgb(235, 114, 114);
 }
 
-#reincarnated {
-    display: flex;
+#snoopdoggscareer {
+    background-color: cornflowerblue;
+    font-style: oblique;
+    color: darkgreen; 
 }
+
+.careerTitle {
+    font-style: inherit;
+    color: goldenrod;
+}
+
+.careerSummary {
+    color: crimson;
+}
+
+.skillsTalents {
+    color: maroon;
+}
+
+.publishedWorks {
+    color: darkmagenta;
+}
+
+.longIsland {
+    color: darkviolet;
+}
+.collaborators {
+    color: olivedrab;
+}
+
+.awards {
+    color: tomato;
+}
+
+.snoopdoggscareersummary {
+    border: 5px solid yellow;
+    border-radius: 30px;
+    border-style: double;
+    
+}
+
+
