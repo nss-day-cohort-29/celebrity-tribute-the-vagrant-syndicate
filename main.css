@@ -123,27 +123,52 @@ h1 {
     padding-bottom: 100px;
     margin-bottom: 30px;
     }   
-} 
     
 
         /*Personal*/
-        .personalTitle h2 {
+
+
+        .personalTitle h1 {
             text-align: center;
             justify-content: center;
             display: flex;
             color: white;
-            background-color: orange;
+            background-color: black;
+            padding: 30px;
         }
 
         .personalInfo h2 {
             flex-direction: row;
             text-align: left;
-            justify-content:
-            order: inherit
+            justify-content: left;
+            order: inherit;
             color: white;
-            float: left;
-            background-color: orange;
+            background-color: black;
+            padding: 30px;
         }
+
+        .lifeInfo {
+            text-align: left;
+            justify-content: left;
+            order: inherit;
+            display: flex;
+            color: white;
+            background-color: black;
+            padding: 30px;
+        }
+        .image {
+            justify-content: center;
+            order: inherit;
+            display: flex;
+            color: white;
+            background-color: black;
+            padding: 30px;
+        }
+
+        .bodybkgd {
+             background-color: black;   
+        }
+
         /*Personal*/
 
    
