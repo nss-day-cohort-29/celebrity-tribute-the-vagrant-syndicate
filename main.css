@@ -198,7 +198,6 @@ h1 {
 
 #snoopdoggscareer {
     background-color: cornflowerblue;
-    font-style: oblique;
     color: darkgreen; 
 }
 
@@ -234,6 +233,7 @@ h1 {
     border: 5px solid yellow;
     border-radius: 30px;
     border-style: double;
+    font-style: oblique;
     
 }
 
